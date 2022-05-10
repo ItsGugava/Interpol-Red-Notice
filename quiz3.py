@@ -19,7 +19,7 @@ with open("interpol_wanted.json", "w") as file:
     json.dump(res, file, indent=4)
 
 # 3 - 4
-
+# იბეჭდება და დათაბეიზში ინახება ძებნილთა სახელი, სქესი და დაბადების ადგილი
 wanted_id_list = []
 all_wanted = res["_embedded"]["notices"]
 
